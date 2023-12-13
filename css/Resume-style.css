@@ -1,0 +1,46 @@
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: auto;
+}
+.ordered-list{
+    font-weight: bold;
+}
+ul {
+    list-style-type: circle; /* You can use different values like disc, square, none, etc. */
+}

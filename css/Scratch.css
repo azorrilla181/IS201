@@ -1,0 +1,82 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBtabXs5WIYltFhrSeRnUSnwwsoRnQrrMvQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: -10vh;
+    margin: 0;
+}
+.tableaustyle{
+    display: block;
+    margin: auto;
+}
+h1{
+    background-color: black;
+    color: azure;
+    font-family: 'calibri', Arial, 'Times New Romans', Helvetica, sans-serif;
+    padding: 10px; /* Adjust the padding as needed for spacing */
+
+}
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px; /* Adjust the padding as needed for spacing */
+}
+
+.header{
+
+}
+
+
+.tableau-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust the margin as needed to create space */
+}
+
+.custom-list {
+    background-color: black;
+    color: azure;
+    padding: 10px; /* Adjust the padding as needed for spacing */
+    list-style: none;
+}
+.custom-list2 {
+    background-color: white;
+    padding: 10px; /* Adjust the padding as needed for spacing */
+    list-style: none;
+}
+
+
+.custom-list li {
+    margin-bottom: 10px;
+}
+
+.custom-list ul {
+    padding-left: 20px; /* Adjust the padding as needed for indentation */
+}
+
+.custom-list li ul li {
+    padding-left: 20px; /* Adjust the padding as needed for indentation */
+}
+.common{
+    padding: 5px;
+    position: absolute;
+}
+.nav{
+    position: relative;
+    float: right;
+    z-index: 1;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar{
+min-height: 3.5rem;
+background-color:azure
+}
